@@ -11,7 +11,7 @@ on:
 env:
   TEMPLATE_NAME: openbridgeserver
   BASE_OS: ubuntu-resolute
-  OPS_REPO: abeggled/openbridgeserver-ops
+  OPS_REPO: starwarsfan/obs-ng-ops
 
 jobs:
   # Tag pushes trigger release.yml and this workflow independently. If a tag

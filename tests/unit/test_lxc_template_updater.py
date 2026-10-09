@@ -211,7 +211,7 @@ def test_release_workflow_skips_manifest_update_without_secret():
 def test_lxc_workflow_writes_bundle_info_to_canary_manifest():
     workflow = _workflow_text()
 
-    assert "OPS_REPO: abeggled/openbridgeserver-ops" in workflow
+    assert "OPS_REPO: starwarsfan/obs-ng-ops" in workflow
     assert 'BUNDLE_FILE="openbridgeserver-app-bundle_${VERSION}.tar.gz"' in workflow
     assert "uses: ./.github/actions/update-ops-manifest" in workflow
     assert '"lxc": {"version": "${{ steps.bundle-info.outputs.version }}"' in workflow

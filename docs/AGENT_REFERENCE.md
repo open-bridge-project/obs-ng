@@ -500,7 +500,7 @@ PR/branch quality workflows:
 
 GitHub CI enforcement (required for merge gate):
 
-1. Open `Settings` → `Branches` in `abeggled/openbridgeserver`.
+1. Open `Settings` → `Branches` in `starwarsfan/obs-ng`.
 2. Edit the branch protection rule for `main`.
 3. Enable `Require status checks to pass before merging`.
 4. Add `i18n-guard` as a required status check.

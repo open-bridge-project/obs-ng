@@ -213,7 +213,7 @@ WS     /api/v1/ws?token={jwt}
 
 ```bash
 # Repository
-git clone https://github.com/abeggled/openbridgeserver
+git clone https://github.com/starwarsfan/obs-ng
 cd openbridgeserver
 
 # Python Environment

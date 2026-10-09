@@ -3,7 +3,7 @@
 ![**open bridge server** Logo](logo/obs_logo_light.svg#gh-light-mode-only)
 ![**open bridge server** Logo](logo/obs_logo_dark.svg#gh-dark-mode-only)
 
-![Version](https://img.shields.io/github/v/release/abeggled/openbridgeserver?style=for-the-badge)
+![Version](https://img.shields.io/github/v/release/starwarsfan/obs-ng?style=for-the-badge)
 [![Tests][tests-badge]][tests]
 [![Coverage][coverage-badge]][coverage]
 
@@ -150,7 +150,7 @@ nothing but Docker on the host.
 **Step 1 — Fetch the stack**
 
 ```bash
-git clone https://github.com/abeggled/openbridgeserver.git
+git clone https://github.com/starwarsfan/obs-ng.git
 cd openbridgeserver
 cp .env.example .env      # optional — MQTT service password, host ports, instance name
 ```
@@ -2157,8 +2157,8 @@ We'd like to use [Weblate](https://hosted.weblate.org/projects/open-bridge-serve
 
 MIT — free and open source.
 
-[tests]: https://github.com/abeggled/openbridgeserver/actions/workflows/unittest.yml
-[tests-badge]: https://img.shields.io/github/actions/workflow/status/abeggled/openbridgeserver/unittest.yml?style=for-the-badge&logo=github&logoColor=ccc&label=Tests
+[tests]: https://github.com/starwarsfan/obs-ng/actions/workflows/unittest.yml
+[tests-badge]: https://img.shields.io/github/actions/workflow/status/starwarsfan/obs-ng/unittest.yml?style=for-the-badge&logo=github&logoColor=ccc&label=Tests
 
-[coverage]: https://app.codecov.io/github/abeggled/openbridgeserver
-[coverage-badge]: https://img.shields.io/codecov/c/github/abeggled/openbridgeserver?style=for-the-badge&logo=codecov&logoColor=ccc&label=Coverage
+[coverage]: https://app.codecov.io/github/starwarsfan/obs-ng
+[coverage-badge]: https://img.shields.io/codecov/c/github/starwarsfan/obs-ng?style=for-the-badge&logo=codecov&logoColor=ccc&label=Coverage

@@ -1,6 +1,6 @@
 [Unit]
 Description=open bridge server — Test Data Generator
-Documentation=https://github.com/abeggled/openbridgeserver
+Documentation=https://github.com/starwarsfan/obs-ng
 After=network.target
 
 [Service]

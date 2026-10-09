@@ -77,7 +77,7 @@ führt zu Chaos beim nächsten Forward-Merge.
 ## 8. Kanäle (Phase 2, #945)
 
 Docker- und LXC-Artefakte werden zusätzlich zum Tag-Vertrag (§5) über kanalbasierte
-Manifeste im separaten Repo `abeggled/openbridgeserver-ops` ausgeliefert
+Manifeste im separaten Repo `starwarsfan/obs-ng-ops` ausgeliefert
 (`canary → staging → stable`). `canary` wird nach jedem erfolgreichen Release-Tag-Push
 automatisch befüllt (Docker-Digest aus `release.yml`, LXC-Bundle-Info aus
 `lxc-template.yml`); `staging`/`stable` werden manuell per `workflow_dispatch`

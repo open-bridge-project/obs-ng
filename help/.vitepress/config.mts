@@ -213,7 +213,7 @@ export default defineConfig({
 
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/abeggled/openbridgeserver' },
+      { icon: 'github', link: 'https://github.com/starwarsfan/obs-ng' },
     ],
   },
 })
