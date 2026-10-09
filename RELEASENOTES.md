@@ -1,4 +1,17 @@
 # Changes
+## 2027.1.0
+### Breaking changes 🚨
+* none
+
+### New features ✨
+* none
+
+### Fixes 🐞
+* none
+
+### Known Issues 🔔
+* none
+
 ## 2026.11.0
 ### Breaking changes 🚨
 * none
